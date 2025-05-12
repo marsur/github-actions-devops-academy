@@ -13,6 +13,4 @@ jobs:
       - name: show date and time 
         run: date 
 
-      - name: update os # Are you root?
-        run: sudo apt update && apt upgrade -y
       
