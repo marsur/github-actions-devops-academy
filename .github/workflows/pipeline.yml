@@ -8,4 +8,11 @@ jobs:
     steps:
       - name: Hello
         run: echo "Hello from GitHub Actions!"
-        run: date
+        # run: date --nespravne
+
+      - name: show date and time 
+        run: date 
+
+      - name: update os 
+        run: apt update && apt upgrade -y
+      
