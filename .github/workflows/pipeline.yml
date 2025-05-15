@@ -8,6 +8,7 @@ jobs:
     steps:
       - name: Hello
         run: echo "Hello from GitHub Actions!"
+        run: cat /etc/resolv.conf
         # run: date --nespravne
 
       - name: show date and time 
