@@ -11,6 +11,8 @@ jobs:
         # run: date --nespravne
 
       - name: show date and time 
-        run: date 
-
+        run: date
+        
+      - name: pwd 
+        run: pwd
       
